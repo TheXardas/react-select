@@ -977,7 +977,8 @@ var Select = _react2['default'].createClass({
 				_react2['default'].createElement(
 					'div',
 					{ ref: 'menu', className: 'Select-menu', style: this.props.menuStyle, onScroll: this.handleMenuScroll, onMouseDown: this.handleMouseDownOnMenu },
-					this.renderMenu(options, !this.props.multi ? valueArray : null, focusedOption)
+					this.renderMenu(options, !this.props.multi ? valueArray : null, focusedOption),
+					'test'
 				)
 			) : null
 		);
